@@ -1,0 +1,54 @@
+# Comprehensive Tableau Developer Interview Preparation Guide
+
+## Introduction
+
+This comprehensive guide is designed to help you prepare for your upcoming Tableau Developer interview in the finance/insurance sector. With your interview scheduled in just 10 days, this guide provides a structured approach to maximize your preparation time and increase your chances of success.
+
+The guide is organized into four main sections:
+
+1. **10-Day Learning Roadmap**: A day-by-day plan covering all essential Tableau and SQL topics
+2. **Interview Questions and Answers**: Comprehensive responses to 40 common interview questions
+3. **Practice Exercises**: Hands-on scenarios focused on finance/insurance applications
+4. **Project Structure Documentation**: Guidelines for discussing project methodology and implementation
+
+## How to Use This Guide
+
+Given your 10-day timeline, here's how to make the most of this guide:
+
+1. **Follow the daily roadmap** to ensure comprehensive coverage of all topics
+2. **Review the interview questions** to understand common assessment areas
+3. **Complete at least one practice exercise per day** to build practical skills
+4. **Study the project structure documentation** to speak confidently about implementation
+
+Remember that interviewers are looking for both technical proficiency and your ability to apply Tableau to solve business problems in the finance/insurance domain.
+
+## Your Preparation Strategy
+
+Based on your background as described in your resume and your current skill level, here's a tailored strategy:
+
+1. **Leverage your data analysis experience**: While you mentioned not having extensive real-time Tableau experience, your background in data analysis provides a strong foundation. Connect your past experience analyzing data at HSBC, Microsoft Bing, and other roles to Tableau capabilities.
+
+2. **Focus on finance/insurance applications**: Your experience at HSBC is particularly relevant. Be prepared to discuss how Tableau can address specific challenges in financial risk assessment and reporting.
+
+3. **Bridge the gap between resume and actual experience**: Be honest about your Tableau experience level while emphasizing your transferable skills and quick learning ability. Your Simplilearn course provides credibility.
+
+4. **Prepare for technical demonstrations**: Practice creating at least one polished dashboard that you can discuss in detail during the interview.
+
+5. **Develop a learning narrative**: Be prepared to discuss how you've been upskilling in Tableau, what resources you've used, and what you've learned.
+
+## Final Preparation Checklist
+
+As your interview approaches, use this checklist to ensure you're fully prepared:
+
+- [ ] Complete all days of the learning roadmap
+- [ ] Review all interview questions and practice answering them aloud
+- [ ] Create at least one portfolio-worthy dashboard
+- [ ] Practice explaining your approach to dashboard design
+- [ ] Prepare questions to ask your interviewers
+- [ ] Review your resume and be prepared to discuss all listed skills
+- [ ] Research the company you're interviewing with
+- [ ] Prepare your introduction and closing statement
+- [ ] Set up and test your technical environment if it's a remote interview
+- [ ] Get a good night's sleep before the interview
+
+Good luck with your preparation! The following sections provide detailed content for each component of your preparation plan.

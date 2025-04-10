@@ -1,0 +1,371 @@
+# Tableau and SQL Practice Exercises for Finance/Insurance
+
+This document contains practical exercises to help you prepare for your Tableau Developer interview. These exercises focus on finance and insurance industry scenarios to give you relevant practice.
+
+## Tableau Practice Exercises
+
+### Exercise 1: Financial Performance Dashboard
+
+**Scenario:** You are a Tableau Developer at a financial services company. The CFO needs a dashboard to track quarterly financial performance.
+
+**Requirements:**
+1. Connect to the sample Superstore dataset (as a proxy for financial data)
+2. Create a dashboard with the following components:
+   - Revenue trend by quarter with year-over-year comparison
+   - Profit margin by product category
+   - Top 10 customers by revenue
+   - Regional performance map
+   - KPI cards showing current quarter metrics vs targets
+
+**Skills Tested:**
+- Time series analysis
+- Calculated fields for financial metrics
+- Parameters for target setting
+- Dashboard layout and design
+- Filters and actions
+
+### Exercise 2: Insurance Risk Assessment
+
+**Scenario:** An insurance company needs to visualize risk exposure across different policy types and regions.
+
+**Requirements:**
+1. Create a dataset with these fields:
+   - Policy Type (Auto, Home, Life, Commercial)
+   - Region
+   - Risk Score (1-10)
+   - Exposure Amount
+   - Claims Count
+   - Premium Amount
+2. Build a dashboard showing:
+   - Risk matrix (Exposure vs. Risk Score)
+   - Claims ratio by policy type
+   - Geographic distribution of high-risk policies
+   - Drill-down capability from region to individual policies
+
+**Skills Tested:**
+- Risk visualization techniques
+- Advanced calculations (claims ratio, risk-adjusted return)
+- Geographic plotting
+- Hierarchical drill-down
+- Conditional formatting
+
+### Exercise 3: Customer Segmentation for Banking
+
+**Scenario:** A retail bank wants to segment customers for targeted marketing campaigns.
+
+**Requirements:**
+1. Create a dataset with:
+   - Customer demographics (age, income, occupation)
+   - Account information (balance, products held)
+   - Transaction history (frequency, recency, monetary value)
+2. Build visualizations showing:
+   - Customer segments based on RFM analysis
+   - Product adoption patterns
+   - Segment migration over time
+   - Opportunity sizing for cross-sell campaigns
+
+**Skills Tested:**
+- Segmentation techniques
+- Set actions
+- Cohort analysis
+- Level of Detail expressions
+- Parameter-driven segmentation criteria
+
+### Exercise 4: Regulatory Compliance Dashboard
+
+**Scenario:** A financial institution needs to track compliance with regulatory requirements.
+
+**Requirements:**
+1. Create a dataset with:
+   - Compliance requirements
+   - Due dates
+   - Submission status
+   - Data quality metrics
+2. Build a dashboard showing:
+   - Compliance calendar with upcoming deadlines
+   - Submission status by department
+   - Historical compliance rate
+   - Exception reporting with drill-down
+
+**Skills Tested:**
+- Date calculations
+- Status tracking
+- Alert visualization
+- Conditional formatting
+- Dashboard actions
+
+### Exercise 5: Financial Fraud Detection
+
+**Scenario:** A credit card company needs to visualize potential fraudulent transactions.
+
+**Requirements:**
+1. Create a dataset with:
+   - Transaction details (amount, merchant, location)
+   - Customer information
+   - Risk scores
+   - Historical patterns
+2. Build visualizations showing:
+   - Anomaly detection
+   - Geographic patterns of suspicious activity
+   - Time-based analysis of transaction patterns
+   - Network analysis of related transactions
+
+**Skills Tested:**
+- Statistical calculations
+- Geographic visualization
+- Time-series analysis
+- Advanced filtering
+- Parameter-driven thresholds
+
+## SQL Practice Exercises
+
+### Exercise 1: Financial Reporting Queries
+
+Write SQL queries to:
+
+1. Calculate monthly revenue with year-over-year growth:
+```sql
+-- Write a query that shows monthly revenue for the current year and previous year,
+-- along with the percentage change
+```
+
+2. Find customers with declining transaction values:
+```sql
+-- Write a query to identify customers whose average transaction value
+-- has decreased by more than 10% compared to the previous quarter
+```
+
+3. Create a profit and loss summary by department:
+```sql
+-- Write a query that generates a P&L statement showing revenue, expenses,
+-- and profit by department, with quarter-over-quarter comparison
+```
+
+4. Calculate key financial ratios:
+```sql
+-- Write a query to calculate liquidity ratio, debt-to-equity ratio,
+-- and return on assets for each business unit
+```
+
+### Exercise 2: Insurance Claims Analysis
+
+Write SQL queries to:
+
+1. Find high-risk policy segments:
+```sql
+-- Write a query to identify policy segments (combinations of policy type,
+-- region, and customer demographic) with claims ratio > 80%
+```
+
+2. Calculate loss development by policy cohort:
+```sql
+-- Write a query to show how claims develop over time for policies
+-- written in each quarter (loss development triangle)
+```
+
+3. Identify fraud indicators:
+```sql
+-- Write a query to flag potentially fraudulent claims based on
+-- multiple indicators (rapid succession claims, high value, etc.)
+```
+
+4. Analyze agent performance:
+```sql
+-- Write a query to rank insurance agents based on a composite score
+-- of sales volume, retention rate, and claims ratio of their book
+```
+
+### Exercise 3: Customer Analysis for Banking
+
+Write SQL queries to:
+
+1. Perform RFM (Recency, Frequency, Monetary) analysis:
+```sql
+-- Write a query to segment customers into RFM categories based on
+-- their transaction history over the past year
+```
+
+2. Calculate customer lifetime value:
+```sql
+-- Write a query to estimate the lifetime value of each customer based on
+-- their product holdings, balances, and transaction patterns
+```
+
+3. Identify cross-sell opportunities:
+```sql
+-- Write a query to find customers who are good candidates for specific
+-- products based on their existing relationships and behavior
+```
+
+4. Analyze customer churn:
+```sql
+-- Write a query to identify early warning indicators of customer churn
+-- based on declining engagement metrics
+```
+
+### Exercise 4: Risk Management Queries
+
+Write SQL queries to:
+
+1. Calculate Value at Risk (VaR):
+```sql
+-- Write a query to calculate 95% VaR for different investment portfolios
+-- based on historical returns
+```
+
+2. Perform stress testing:
+```sql
+-- Write a query to simulate portfolio performance under different
+-- stress scenarios (e.g., market drop of 20%, interest rate spike)
+```
+
+3. Analyze concentration risk:
+```sql
+-- Write a query to identify concentration risks in loan portfolios
+-- by industry, geography, and borrower
+```
+
+4. Monitor compliance thresholds:
+```sql
+-- Write a query to check if any regulatory thresholds are being approached
+-- or exceeded (e.g., capital adequacy, liquidity requirements)
+```
+
+### Exercise 5: Advanced Financial Analytics
+
+Write SQL queries to:
+
+1. Perform time series forecasting:
+```sql
+-- Write a query using window functions to create a 3-month forecast
+-- of revenue based on historical patterns and seasonality
+```
+
+2. Create a customer journey analysis:
+```sql
+-- Write a query to analyze the sequence and timing of product adoption
+-- across the customer lifecycle
+```
+
+3. Build a recommendation engine:
+```sql
+-- Write a query to generate "next best offer" recommendations based on
+-- collaborative filtering of similar customer behaviors
+```
+
+4. Detect anomalies in financial transactions:
+```sql
+-- Write a query to identify statistical outliers in transaction patterns
+-- that may indicate errors, fraud, or unusual business activity
+```
+
+## Sample Datasets for Practice
+
+### Financial Dataset Structure
+
+```
+financial_transactions
+- transaction_id
+- transaction_date
+- customer_id
+- product_id
+- transaction_type (deposit, withdrawal, payment, transfer)
+- amount
+- channel (online, branch, mobile)
+- status
+
+customers
+- customer_id
+- customer_name
+- segment
+- relationship_start_date
+- credit_score
+- income_bracket
+- region
+- age_group
+
+products
+- product_id
+- product_name
+- product_category
+- interest_rate
+- fee_structure
+- term_length
+
+financial_metrics
+- period_id
+- department_id
+- revenue
+- expenses
+- profit
+- assets
+- liabilities
+- headcount
+```
+
+### Insurance Dataset Structure
+
+```
+policies
+- policy_id
+- customer_id
+- policy_type
+- start_date
+- end_date
+- premium_amount
+- coverage_amount
+- risk_score
+
+claims
+- claim_id
+- policy_id
+- claim_date
+- claim_amount
+- claim_status
+- claim_category
+- settlement_date
+- settlement_amount
+
+customers
+- customer_id
+- customer_name
+- age
+- gender
+- occupation
+- income_bracket
+- region
+- customer_since
+
+agents
+- agent_id
+- agent_name
+- region
+- hire_date
+- performance_rating
+- team
+```
+
+## Tips for Practice
+
+1. **Start with simple visualizations** and gradually add complexity
+2. **Document your approach** as you would explain it in an interview
+3. **Create a portfolio piece** from one of these exercises to showcase during interviews
+4. **Practice explaining your design decisions** out loud
+5. **Time yourself** to simulate interview conditions
+6. **Get feedback** from peers or online communities if possible
+7. **Iterate on your solutions** to improve them
+8. **Focus on business insights**, not just technical implementation
+9. **Practice both prepared and ad-hoc analysis** scenarios
+10. **Review and critique** existing dashboards to develop your analytical eye
+
+## Resources for Creating Practice Data
+
+If you don't have access to financial or insurance datasets, you can:
+
+1. Use Tableau's built-in sample data (Superstore) and modify it
+2. Generate synthetic data using Excel or Python
+3. Find finance/insurance datasets on Kaggle or data.gov
+4. Use Tableau Public to find financial dashboards and reverse-engineer them
+5. Create mock data based on annual reports of public companies
+
+Remember to focus your practice on finance and insurance scenarios to prepare specifically for your target role.

@@ -1,0 +1,235 @@
+# 10-Day Tableau Developer Interview Preparation Roadmap
+
+## Overview
+This roadmap is designed to help you prepare for a Tableau Developer interview in the finance/insurance sector within 10 days. It focuses on building both theoretical knowledge and practical skills, with an emphasis on industry-specific applications.
+
+## Day 1: Tableau Fundamentals & Data Connection
+
+### Morning Session
+- **Tableau Interface & Navigation**
+  - Understanding the workspace
+  - Connecting to data sources
+  - Sheets, dashboards, and stories
+  - Saving and publishing workbooks
+
+### Afternoon Session
+- **Data Connection in Tableau**
+  - Connecting to various data sources (Excel, CSV, SQL databases)
+  - Live connections vs. extracts
+  - Joining tables
+  - Custom SQL connections
+  - Finance/insurance specific data sources
+
+### Evening Practice
+- Connect to at least 3 different data sources
+- Create a simple visualization with each
+- Practice joining tables from finance datasets
+
+## Day 2: Data Preparation & Transformation
+
+### Morning Session
+- **Data Cleaning in Tableau**
+  - Data interpreter
+  - Handling null values
+  - Data type conversion
+  - Renaming fields and creating aliases
+
+### Afternoon Session
+- **Data Transformation**
+  - Calculated fields
+  - Basic calculations
+  - Date calculations (critical for financial reporting)
+  - String manipulations
+  - Number formatting for currency and percentages
+
+### Evening Practice
+- Create 5 different calculated fields
+- Practice date calculations for financial reporting periods
+- Transform a messy dataset into a clean, analysis-ready format
+
+## Day 3: Basic Visualizations & Chart Types
+
+### Morning Session
+- **Basic Chart Types**
+  - Bar charts and line charts
+  - Pie charts and treemaps
+  - Scatter plots
+  - Tables and cross-tabs
+  - Heat maps
+
+### Afternoon Session
+- **Financial Visualizations**
+  - Time series analysis for financial data
+  - Comparison charts for performance metrics
+  - Distribution charts for risk assessment
+  - KPI visualizations for financial dashboards
+
+### Evening Practice
+- Create a visualization for each chart type
+- Build a financial dashboard with at least 3 different chart types
+- Practice formatting visualizations for professional presentation
+
+## Day 4: Advanced Visualizations & Calculations
+
+### Morning Session
+- **Advanced Chart Types**
+  - Waterfall charts for financial statements
+  - Bullet graphs for performance vs. targets
+  - Box plots for distribution analysis
+  - Gantt charts for project timelines
+  - Pareto charts for risk analysis
+
+### Afternoon Session
+- **Advanced Calculations**
+  - Table calculations
+  - Level of Detail (LOD) expressions
+  - Window functions
+  - Financial calculations (ROI, compound interest, etc.)
+
+### Evening Practice
+- Create 3 advanced visualizations relevant to finance/insurance
+- Build complex calculations for financial analysis
+- Practice explaining the business value of these visualizations
+
+## Day 5: Dashboards & Stories
+
+### Morning Session
+- **Dashboard Design Principles**
+  - Layout and formatting
+  - Interactive elements
+  - Mobile responsiveness
+  - Performance optimization
+  - Executive dashboard best practices
+
+### Afternoon Session
+- **Creating Interactive Dashboards**
+  - Actions and filters
+  - Parameters
+  - Navigation buttons
+  - Tooltips and hover actions
+  - Drill-down functionality
+
+### Evening Practice
+- Create a comprehensive financial dashboard
+- Add interactive elements and filters
+- Optimize for performance and user experience
+
+## Day 6: SQL Fundamentals for Tableau
+
+### Morning Session
+- **SQL Basics**
+  - SELECT, FROM, WHERE clauses
+  - GROUP BY, HAVING, ORDER BY
+  - JOINs (INNER, LEFT, RIGHT, FULL)
+  - Subqueries
+  - Aggregation functions
+
+### Afternoon Session
+- **SQL for Financial Data**
+  - Date functions for financial periods
+  - Window functions for running totals
+  - Case statements for categorization
+  - Financial SQL queries (balance calculations, etc.)
+
+### Evening Practice
+- Write 10 SQL queries of increasing complexity
+- Create custom SQL connections in Tableau
+- Practice explaining your SQL approach in interview settings
+
+## Day 7: Data Blending & Advanced Data Handling
+
+### Morning Session
+- **Data Blending in Tableau**
+  - Understanding data blending vs. joins
+  - Primary and secondary data sources
+  - Linking fields
+  - Blend constraints and limitations
+
+### Afternoon Session
+- **Advanced Data Handling**
+  - Data extracts and optimization
+  - Incremental refreshes
+  - Row-level security
+  - Data source filters
+  - Working with large datasets
+
+### Evening Practice
+- Create a blended data source visualization
+- Implement row-level security for a finance dataset
+- Optimize a large dataset for performance
+
+## Day 8: Tableau Server & Project Management
+
+### Morning Session
+- **Tableau Server Concepts**
+  - Publishing workbooks and data sources
+  - Scheduling refreshes
+  - User permissions and site roles
+  - Subscriptions and alerts
+  - Version control
+
+### Afternoon Session
+- **Project Management & Agile Methodology**
+  - Agile/Scrum for Tableau projects
+  - Sprint planning and backlog management
+  - Jira integration
+  - Documentation best practices
+  - User acceptance testing
+
+### Evening Practice
+- Document a complete Tableau project lifecycle
+- Create a project plan for a financial dashboard implementation
+- Practice explaining your project management approach
+
+## Day 9: Industry-Specific Applications & Mock Interviews
+
+### Morning Session
+- **Finance/Insurance Industry Applications**
+  - Risk assessment dashboards
+  - Financial performance tracking
+  - Customer segmentation for insurance
+  - Fraud detection visualizations
+  - Regulatory compliance reporting
+
+### Afternoon Session
+- **Mock Interview Questions**
+  - Technical Tableau questions
+  - SQL problem-solving
+  - Dashboard design scenarios
+  - Project experience discussions
+  - Behavioral questions
+
+### Evening Practice
+- Create an industry-specific portfolio piece
+- Practice answering interview questions out loud
+- Prepare questions to ask your interviewers
+
+## Day 10: Final Review & Interview Preparation
+
+### Morning Session
+- **Comprehensive Review**
+  - Quick review of all key concepts
+  - Identify and address knowledge gaps
+  - Practice explaining complex concepts simply
+  - Review industry-specific terminology
+
+### Afternoon Session
+- **Interview Strategy**
+  - Preparing your introduction
+  - Structuring answers (STAR method)
+  - Portfolio presentation
+  - Technical demonstration preparation
+  - Handling difficult questions
+
+### Evening Practice
+- Conduct a full mock interview
+- Review your portfolio and examples
+- Get a good night's sleep before your interview
+
+## Additional Resources
+- Tableau Public for inspiration and examples
+- Tableau Community Forums for specific questions
+- Finance/insurance industry reports for domain knowledge
+- Tableau's official documentation and training videos
+
+Remember to focus on both technical skills and your ability to communicate how Tableau can solve business problems in the finance/insurance industry. Good luck with your interview preparation!
